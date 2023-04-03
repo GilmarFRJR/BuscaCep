@@ -13,7 +13,7 @@ $('#cep').on('blur', function(){
         return
 
     } else{
-        $.getJSON(`http://viacep.com.br/ws/${CEP}/json/`, function(infos) {
+        $.getJSON(`https://viacep.com.br/ws/${CEP}/json/`, function(infos) {
 
     if (infos.erro){
         
